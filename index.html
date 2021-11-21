@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sibdev: Адаптивный дизайн</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&family=Poppins:wght@400;500&family=Roboto:wght@400;500&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+
+    <div class="sidebarContainer">
+
+        <input id="sidebar-toggle" type="checkbox" />
+        <label class="sidebar-btn" for="sidebar-toggle">
+            <span></span>
+        </label>
+
+        <div class="sidebar">
+
+            <div class="logo">
+                <img src="src/images/logo.svg">
+                <span>BECO</span>
+            </div>
+
+            <nav class="menu">
+
+                <a class="menu__item">
+                    <img src="src/images/catalog.svg">
+                    <span>Каталог</span>
+                </a>
+
+                <a class="menu__item">
+                    <img src="src/images/vector.svg">
+                    <span>Здоровье</span>
+                </a>
+
+                <a class="menu__item">
+                    <img src="src/images/heart.svg">
+                    <span>Красота</span>
+                </a>
+
+                <a class="menu__item_active">
+                    <img src="src/images/cat.svg">
+                    <span>Развлечения</span>
+                </a>
+
+                <a class="menu__item">
+                    <img src="src/images/car.svg">
+                    <span>Авто</span>
+                </a>
+
+            </nav>
+
+        </div>
+    </div>
+
+    <div class="content">
+
+        <div class="upperBlock">
+            <div class="upperBlock__category">
+                <span> Развлечения</span>
+            </div>
+
+            <div class="upperBlock__search">
+                <div class="upperBlock__searchInput">
+                    <img src="src/images/search.svg" alt="Search" />
+                    <input placeholder="Какой магазин вам нужен?" />
+                </div>
+            </div>
+        </div>
+
+        <div class="coupons">
+
+            <div class="coupone_active">
+
+                <div class="coupone">
+
+                    <div class="coupone__info">
+
+                        <div class="coupone__offer-info">
+                            <div class="coupone__company">
+                                <span>пробка на мира</span>
+                            </div>
+
+                            <div class="coupone__promotion">
+                                <span>Вечер для двоих</span>
+                            </div>
+                        </div>
+
+                        <div class="coupone__offer-description">
+                            <div class="coupone__sale">
+                                <span>-50%</span>
+                            </div>
+
+                            <div class="coupone__sale-description">
+                                <span>СКИДКА</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <img class="coupone__img" src="src/images/couponeImages/wine.png">
+
+                </div>
+            </div>
+
+            <div class="coupone_inactive">
+                <div class="coupone">
+
+                    <div class="coupone__info">
+
+                        <div class="coupone__offer-info">
+                            <div class="coupone__company">
+                                <span>КИНО И НЕМЦЫ</span>
+                            </div>
+
+                            <div class="coupone__promotion">
+                                <span>Бесплатный бокал пива</span>
+                            </div>
+                        </div>
+
+                        <div class="coupone__offer-description">
+                            <div class="coupone__sale">
+                                <span>ВАРВАР</span>
+                            </div>
+
+                            <div class="coupone__sale-description">
+                                <span>ПРОМОКОД</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <img class="coupone__img" src="src/images/couponeImages/beer.png">
+
+                </div>
+            </div>
+
+            <div class="coupone_inactive">
+                <div class="coupone">
+
+                    <div class="coupone__info">
+
+                        <div class="coupone__offer-info">
+                            <div class="coupone__company">
+                                <span>valery cakes</span>
+                            </div>
+
+                            <div class="coupone__promotion">
+                                <span>Торт</span>
+                            </div>
+                        </div>
+
+                        <div class="coupone__offer-description">
+                            <div class="coupone__sale">
+                                <span>30%</span>
+                            </div>
+
+                            <div class="coupone__sale-description">
+                                <span>скидка</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <img class="coupone__img" src="src/images/couponeImages/cake.png">
+
+                </div>
+            </div>
+
+            <div class="coupone_inactive">
+                <div class="coupone">
+
+                    <div class="coupone__info">
+
+                        <div class="coupone__offer-info">
+                            <div class="coupone__company">
+                                <span>sushi sell</span>
+                            </div>
+
+                            <div class="coupone__promotion">
+                                <span>Набор “Праздник”</span>
+                            </div>
+                        </div>
+
+                        <div class="coupone__offer-description">
+                            <div class="coupone__sale">
+                                <span>45%</span>
+                            </div>
+
+                            <div class="coupone__sale-description">
+                                <span>скидка</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <img class="coupone__img" src="src/images/couponeImages/sushi.png">
+
+                </div>
+            </div>
+
+            <div class="coupone_inactive">
+                <div class="coupone">
+
+                    <div class="coupone__info">
+
+                        <div class="coupone__offer-info">
+                            <div class="coupone__company">
+                                <span>mangosteen</span>
+                            </div>
+
+                            <div class="coupone__promotion">
+                                <span>Фрукт в подарок</span>
+                            </div>
+                        </div>
+
+                        <div class="coupone__offer-description">
+                            <div class="coupone__sale">
+                                <span>J130</span>
+                            </div>
+
+                            <div class="coupone__sale-description">
+                                <span>купон</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <img class="coupone__img" src="src/images/couponeImages/fruits.png">
+
+                </div>
+            </div>
+
+            <div class="coupone_inactive">
+                <div class="coupone">
+
+                    <div class="coupone__info">
+
+                        <div class="coupone__offer-info">
+                            <div class="coupone__company">
+                                <span>теленок табака</span>
+                            </div>
+
+                            <div class="coupone__promotion">
+                                <span>Стейк “Мачете”</span>
+                            </div>
+                        </div>
+
+                        <div class="coupone__offer-description">
+                            <div class="coupone__sale">
+                                <span>20% </span>
+                            </div>
+
+                            <div class="coupone__sale-description">
+                                <span>скидка</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <img class="coupone__img" src="src/images/couponeImages/meat.png">
+
+                </div>
+            </div>
+
+            <div class="coupone_inactive">
+                <div class="coupone">
+
+                    <div class="coupone__info">
+
+                        <div class="coupone__offer-info">
+                            <div class="coupone__company">
+                                <span>fire food</span>
+                            </div>
+
+                            <div class="coupone__promotion">
+                                <span>Вторая шаурма в подарок</span>
+                            </div>
+                        </div>
+
+                        <div class="coupone__offer-description">
+                            <div class="coupone__sale">
+                                <span>ОГОНЬ</span>
+                            </div>
+
+                            <div class="coupone__sale-description">
+                                <span>промокод</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <img class="coupone__img" src="src/images/couponeImages/shawarma.png">
+
+                </div>
+            </div>
+
+            <div class="coupone_inactive">
+                <div class="coupone">
+
+                    <div class="coupone__info">
+
+                        <div class="coupone__offer-info">
+                            <div class="coupone__company">
+                                <span>aroma cremeria</span>
+                            </div>
+
+                            <div class="coupone__promotion">
+                                <span>Джелато “Пармезан”</span>
+                            </div>
+                        </div>
+
+                        <div class="coupone__offer-description">
+                            <div class="coupone__sale">
+                                <span>20%</span>
+                            </div>
+
+                            <div class="coupone__sale-description">
+                                <span>Скидка</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <img class="coupone__img" src="src/images/couponeImages/iceCream.png">
+
+                </div>
+            </div>
+
+            <div class="coupone_inactive">
+                <div class="coupone">
+
+                    <div class="coupone__info">
+
+                        <div class="coupone__offer-info">
+                            <div class="coupone__company">
+                                <span>пробка на мира</span>
+                            </div>
+
+                            <div class="coupone__promotion">
+                                <span>Вечер для двоих</span>
+                            </div>
+                        </div>
+
+                        <div class="coupone__offer-description">
+                            <div class="coupone__sale">
+                                <span>J130</span>
+                            </div>
+
+                            <div class="coupone__sale-description">
+                                <span>КУПОН</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <img class="coupone__img" src="src/images/couponeImages/wine.png">
+
+                </div>
+            </div>
+
+            <div class="coupone_inactive">
+                <div class="coupone">
+
+                    <div class="coupone__info">
+
+                        <div class="coupone__offer-info">
+                            <div class="coupone__company">
+                                <span>КИНО И НЕМЦЫ</span>
+                            </div>
+
+                            <div class="coupone__promotion">
+                                <span>Бесплатный бокал пива</span>
+                            </div>
+                        </div>
+
+                        <div class="coupone__offer-description">
+                            <div class="coupone__sale">
+                                <span>ВАРВАР</span>
+                            </div>
+
+                            <div class="coupone__sale-description">
+                                <span>ПРОМОКОД</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <img class="coupone__img" src="src/images/couponeImages/beer.png">
+
+                </div>
+            </div>
+
+            <div class="coupone_inactive">
+                <div class="coupone">
+
+                    <div class="coupone__info">
+
+                        <div class="coupone__offer-info">
+                            <div class="coupone__company">
+                                <span>valery cakes</span>
+                            </div>
+
+                            <div class="coupone__promotion">
+                                <span>Торт</span>
+                            </div>
+                        </div>
+
+                        <div class="coupone__offer-description">
+                            <div class="coupone__sale">
+                                <span>30%</span>
+                            </div>
+
+                            <div class="coupone__sale-description">
+                                <span>скидка</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <img class="coupone__img" src="src/images/couponeImages/cake.png">
+
+                </div>
+            </div>
+
+
+            <div class="coupone_inactive">
+                <div class="coupone">
+
+                    <div class="coupone__info">
+
+                        <div class="coupone__offer-info">
+                            <div class="coupone__company">
+                                <span>sushi sell</span>
+                            </div>
+
+                            <div class="coupone__promotion">
+                                <span>Набор “Праздник”</span>
+                            </div>
+                        </div>
+
+                        <div class="coupone__offer-description">
+                            <div class="coupone__sale">
+                                <span>45%</span>
+                            </div>
+
+                            <div class="coupone__sale-description">
+                                <span>скидка</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <img class="coupone__img" src="src/images/couponeImages/sushi.png">
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>
